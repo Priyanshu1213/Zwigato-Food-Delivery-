@@ -1,0 +1,29 @@
+.Navbar_1{
+
+    background: #ffffff;
+    height: 56px;
+    width: 86%;
+    justify-content: space-between;
+    display: flex;
+    color: #000000;
+    margin-left: 7%;
+
+
+}
+
+.Navbar_2{
+    margin-left: 0%;
+}
+.Navbar_21{
+
+    justify-content: right;
+    display: flex;
+    width: 400px;
+    margin-right: 0%;
+}
+
+.Navbar_211{
+   font-weight: bold;
+   align-items: center;
+    width: 120px;
+}

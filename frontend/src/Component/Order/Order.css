@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+ background-color: aquamarine;   display: inline;
+}
