@@ -1,6 +1,12 @@
+/* .Nav{
+    background: #e9e6e6;
+    margin-top: 0%;
+}
+
+
 .Navbar_1{
 
-    background: #ffffff;
+    background: #e9e6e6;
     height: 56px;
     width: 86%;
     justify-content: space-between;
@@ -17,13 +23,61 @@
 .Navbar_21{
 
     justify-content: right;
+    align-items: center;
     display: flex;
     width: 400px;
     margin-right: 0%;
 }
 
 .Navbar_211{
-   font-weight: bold;
+   
    align-items: center;
+   cursor: pointer;
+   margin-left: 5%;
+   margin-right: 5%;
+   font-size: larger;
+   font-weight:700;
     width: 120px;
-}
+} */
+
+
+/* Style for the container div */
+.Nav {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the navbar */
+  .Navbar_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the logo */
+  .Navbar_2 img {
+    object-fit: contain;
+  }
+  
+  /* Style for the links */
+  .Navbar_21 {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .Navbar_211 {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .Navbar_211:hover {
+    color: #e67123;
+  }
+  
+  

@@ -45,8 +45,8 @@ export default function Order() {
         <div className='container1'>
             <img src={foodimg}/>
             <h2>{foodname}</h2>
-            <h3>{foodprice}</h3>
-            <h2>Total Price = {foodprice*data.Foodquantity}</h2>
+            <h3>Price of 1 quantity = {foodprice}</h3>
+            <h4>Total Price of {data.Foodquantity} quantity = {foodprice*data.Foodquantity}</h4>
 
         </div>
     
@@ -61,19 +61,19 @@ export default function Order() {
         <input  type='number' onChange={Vickypapa} name='Foodquantity' value={data.Foodquantity}/>
       </label>
       <label>
-        Userid:
+        Email id:
         <input type='text' onChange={Vickypapa} name='Emailid' value={data.Emailid}/>
       </label>
       <label>
         Phone number:
-        <input type='tel' onChange={Vickypapa} name='Phonenumber' value={data.Phonenumber} />
+        <input type='Number' onChange={Vickypapa} name='Phonenumber' value={data.Phonenumber} />
       </label>
       <label>
         Address:
         <textarea name='Address' onChange={Vickypapa} value={data.Address}></textarea>
       </label>
       
-e    </form>
+   </form>
       <button className='pay'onClick={print}>Pay</button>
       </div>
     </div>

@@ -31,7 +31,7 @@ function changer(){
 
             <div className='Cartlog_122'>
             <h4> {props.priya.foodprice}</h4>
-            <button className='btu'  onClick={changer}>Oder</button>
+            <button className='btu'  onClick={changer}>Order</button>
            </div>
             </div>
         </div>

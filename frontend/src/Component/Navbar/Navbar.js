@@ -10,16 +10,17 @@ export default function Navbar() {
     Navigate('/cart')
   }
   return (
-    <div>
+    <div className='Nav'>
       <div className='Navbar_1'>
-      
-<div className='Navbar_2'><img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" height={45} width={230}/></div>
-  <div className='Navbar_21'>   
-  <div className='Navbar_211' onClick={dish}>Cart</div>
-<div className='Navbar_211'> Sing-in</div>
-<div className='Navbar_211'>Sing-up</div>
-</div>
-      </div>
+        <div className='Navbar_2'>
+          <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" height={45} width={230}/>
+        </div>
+        <div className='Navbar_21'>
+          <div className='Navbar_211' onClick={dish}>Cart</div>
+          <div className='Navbar_211'> Sing-in</div>
+          <div className='Navbar_211'>Sing-up</div>
+          </div>
+        </div>
     </div>
   )
 }
