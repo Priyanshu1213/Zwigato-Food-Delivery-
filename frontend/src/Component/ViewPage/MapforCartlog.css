@@ -4,3 +4,17 @@
   gap: 20px;
   
 }
+.search-header{
+  margin-top: 80px;
+}
+input{
+  width: 40%;
+  height: 45px;
+  font-size: large;
+  padding-left: 10px;
+  background-color: rgb(248, 252, 255);
+  border-radius: 5px;
+  border-color: azure;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
